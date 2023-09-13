@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 94%);
+}
+
+html {
+    font-size: 62.5%
+}
+
+.UI {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 7rem;
+    border-radius: 10px;
+    border-bottom-right-radius: 10rem;
+    /* background-color: grey; */
+    box-shadow: 0 0 15px 0 black;
+    background-color: white;
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1.5fr;
+    column-gap: 2rem;
+    padding-bottom: 5.4rem;
+    row-gap: 2rem;
+    border-bottom: 1px solid grey;
+    position: relative;
+    margin-bottom: 2.4rem;
+
+}
+
+
+.label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.input {
+    padding: 3rem 1rem;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid grey;
+    width: 15rem;
+    height: 4.8rem;
+    font-size: 3.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 2.4rem; */
+    /* margin: 0 auto; */
+}
+
+.input:focus {
+    border: 1px solid hsl(259, 100%, 65%);
+}
+
+.submit-form {
+    background-color: hsl(259, 100%, 65%);
+    width: 8rem;
+    height: 8rem;
+    padding: 1rem;
+    border-radius: 50%;
+    grid-column: 4;
+    justify-self: center;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0%;
+    bottom: -100%;
+    transform: translate(3px, -25%);
+    grid-row: 2;
+    transition: all 0.3s;
+}
+
+.submit-form:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.data {
+    font-size: 6rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.number {
+    color: hsl(259, 100%, 65%);
+
+}
+
+.number-init {
+    letter-spacing: 1rem;
+}
+
+/* Atribution */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
