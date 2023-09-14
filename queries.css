@@ -1,10 +1,15 @@
 @media (max-width: 23.5em) {
     html {
-        font-size: 35%;
+        font-size: 32.5%;
     }
 
     .inputs {
-        margin-bottom: 4rem;
+        margin-bottom: 9rem;
+
+    }
+
+    .input {
+        /* display: inline-block; */
     }
 
     .error-text {
@@ -13,9 +18,11 @@
 
     .submit-form {
         right: -50%;
-        transform: translateX(-50%);
+        transform: translateX(-175%);
+        ;
         width: 11rem;
         height: 11rem;
+
     }
 
     .inputs {
