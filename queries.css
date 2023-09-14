@@ -1,0 +1,29 @@
+@media (max-width: 23.5em) {
+    html {
+        font-size: 35%;
+    }
+
+    .inputs {
+        margin-bottom: 4rem;
+    }
+
+    .error-text {
+        margin-bottom: 4rem;
+    }
+
+    .submit-form {
+        right: -50%;
+        transform: translateX(-50%);
+        width: 11rem;
+        height: 11rem;
+    }
+
+    .inputs {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .svg-icon {
+        width: 5rem;
+        height: 5rem;
+    }
+}

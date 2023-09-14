@@ -7,9 +7,10 @@
   <!-- displays site properly based on user's device -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="queries.css" />
   <title>Frontend Mentor | Age calculator app</title>
   <script defer src='script.js'></script>
 </head>
@@ -22,17 +23,22 @@
           <div class="label-and-input">
             <label class="label" for="label-day">Day</label>
             <input class="input" id="label-day" type="text" placeholder="DD" />
+            <p class="error-text hidden">Error</p>
           </div>
           <div class="label-and-input">
             <label class="label" for="label-month">Month</label>
             <input class="input" id="label-month" type="text" placeholder="MM" />
+            <p class="error-text hidden">Error</p>
+
           </div>
           <div class="label-and-input">
             <label class="label" for="label-year">Year</label>
             <input class="input" id="label-year" type="text" placeholder="YY" />
+            <p class="error-text hidden">Error</p>
+
           </div>
-          <button class="submit-form">
-            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44">
+          <button title="submit-birthday" class="submit-form">
+            <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44">
               <g fill="none" stroke="#FFF" stroke-width="2">
                 <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" />
               </g>
