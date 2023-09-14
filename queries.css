@@ -1,4 +1,4 @@
-@media (max-width: 23.5em) {
+@media (max-width: 30em) {
     html {
         font-size: 32.5%;
     }
@@ -32,5 +32,11 @@
     .svg-icon {
         width: 5rem;
         height: 5rem;
+    }
+}
+
+@media (max-width:23.5em) {
+    html {
+        font-size: 30.5%;
     }
 }
